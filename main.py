@@ -26,7 +26,7 @@ def command(commd):
         keyboard.press_and_release('ctrl + a')
         keyboard.press_and_release('delete')
     else:
-        type(f'{commd}', 0.0)
+        type(f'{commd}', 0.01)
     print(commd)
 
 
